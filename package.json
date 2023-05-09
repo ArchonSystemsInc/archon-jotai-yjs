@@ -1,0 +1,35 @@
+{
+  "name": "@archon/jotai-hocuspocus",
+  "packageManager": "yarn@3.2.0",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "@hocuspocus/provider": "^2.0.3",
+    "jotai": "^2",
+    "yjs": "^13.6.1"
+  },
+  "devDependencies": {
+    "@types/ws": "8.5.4",
+    "chai": "4.3.7",
+    "mocha": "10.2.0",
+    "ts-node": "10.9.1",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "^5.0.4",
+    "ws": "8.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArchonSystemsInc/jotai-hocuspocus"
+  },
+  "keywords": [
+    "react",
+    "yjs",
+    "hocuspocus",
+    "jotai"
+  ],
+  "author": "Sunny Li <sunny.li@archonsystems.com>",
+  "contributors": [
+    "Rithik Bhatia <rithik.bhatia@archonsystems.com>"
+  ],
+  "license": "MIT"
+}
