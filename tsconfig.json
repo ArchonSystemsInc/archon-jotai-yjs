@@ -12,7 +12,9 @@
     "useUnknownInCatchVariables": true,
     "paths": {
       "@archon/jotai-hocuspocus/*": ["src/*"]
-    }
+    },
+    "types": ["mocha"],
+    "outDir": "dist"
   },
   "include": ["src/**/*", "tests/**/*"],
   "exclude": ["node_modules", "dist"]

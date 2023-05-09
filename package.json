@@ -3,12 +3,17 @@
   "packageManager": "yarn@3.2.0",
   "private": true,
   "version": "0.0.1",
+  "scripts": {
+    "typecheck": "yarn tsc --build tsconfig.json"
+  },
   "dependencies": {
     "@hocuspocus/provider": "^2.0.3",
     "jotai": "^2",
+    "y-protocols": "^1.0.5",
     "yjs": "^13.6.1"
   },
   "devDependencies": {
+    "@types/mocha": "10.0.1",
     "@types/ws": "8.5.4",
     "chai": "4.3.7",
     "mocha": "10.2.0",

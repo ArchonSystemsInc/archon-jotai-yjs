@@ -50,7 +50,7 @@ export const observeExternalStoreAtom = <TObservable, TState = { state: TObserva
 
       let value = getState?.(observable)
       //Null is a legit value
-      if (value === undefined) value = { state: observable } as TState //Need to return this as a new object each time incase the observable is always the same reference
+      if (value === undefined) value = { state: observable } as unknown as TState //Need to return this as a new object each time incase the observable is always the same reference
       return value
     },
     (get, set, update: typeof mount | typeof unmount | TState) => {
