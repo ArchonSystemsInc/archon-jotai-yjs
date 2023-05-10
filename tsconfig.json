@@ -16,6 +16,11 @@
     "types": ["mocha"],
     "outDir": "dist"
   },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
   "include": ["src/**/*", "tests/**/*"],
   "exclude": ["node_modules", "dist"]
 }
