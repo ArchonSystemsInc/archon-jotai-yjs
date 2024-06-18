@@ -23,7 +23,7 @@
     "ts-node": "9.0.0",
     "tsconfig-paths": "3.9.0",
     "typescript": "^5.0.4",
-    "ws": "8.13.0"
+    "ws": "8.17.1"
   },
   "repository": {
     "type": "git",
